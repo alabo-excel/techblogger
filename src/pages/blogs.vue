@@ -29,7 +29,7 @@
         </router-link>
     </div>
 
-    <router-link to="">
+    <router-link to="/users/:1">
         <div id="content" class="m-4 " v-for="article in articles" :key="article">
             <h4>{{article.title}}</h4>
             <p>{{article.content}}</p>
